@@ -58,9 +58,9 @@
 
 | Компонент | Технология |
 |---|---|
-| Токенизатор | 🤗 `tokenizers` (BPE, byte-level fallback) |
+| Токенизатор | `tokenizers` (BPE, byte-level fallback) |
 | Модель | свой GPT-style декодер — GQA + RoPE + SwiGLU + RMSNorm |
-| Датасет | 🤗 `datasets` |
+| Датасет | `datasets` |
 | Оптимизатор | AdamW 8-bit (`bitsandbytes`) |
 | Training loop | чистый PyTorch, bfloat16, gradient checkpointing |
 
