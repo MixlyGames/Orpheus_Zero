@@ -85,7 +85,7 @@ def clean_text(text):
     """
     Убираем:
       - control/format/private-use/surrogate символы (Cc/Cf/Co/Cs)
-      - U+FFFD (replacement character) — битые байты из скрейпа/кодировок
+      - U+FFFD (replacement character) — битые байты из скрейпа/кодировок или же простыми словами �
     Схлопываем множественные пробелы и тройные переносы строк.
     """
     cleaned = "".join(
